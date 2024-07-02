@@ -15,8 +15,8 @@ main =
         , s "width" "100vw"
         , s "height" "100vh"
         , s "font-family" "monospace"
-        , s "font-size" "1.5vmax"
-        , s "line-height" "2.5vmax"
+        , s "font-size" "2vmax"
+        , s "line-height" "3.25vmax"
         ]
         [ Vd.node "div"
             [ s "background-color" "#000000"
