@@ -1,0 +1,4 @@
+#! /bin/sh
+clear
+ls -R src/* | entr -r elm-live -d docs src/Main.elm -- --output=docs/index.html --optimize
+reset
